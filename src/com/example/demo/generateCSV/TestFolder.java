@@ -16,7 +16,7 @@ import okhttp3.Response;
 public class TestFolder {
 
 	public static void main(String[] args) throws Exception {
-		String apiKey = "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";
+		String apiKey = "Enter you api key";
 		String filePath = "TestFolder\\Test.csv";
 
 		OkHttpClient client = new OkHttpClient.Builder().connectTimeout(120, TimeUnit.SECONDS) // Set the connect
