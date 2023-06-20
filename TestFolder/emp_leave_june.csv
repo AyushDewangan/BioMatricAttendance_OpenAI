@@ -1,0 +1,8 @@
+,,,,,,
+EmployeeName,EmployeeID,LeaveType,LeaveStartDate,LeaveEndDate,LeaveDuration,LeaveStatus
+Ayush,A132,Half Day,02-06-2021,02-06-2021,0.5,Approved
+Romesh,R132,Full Day,10-06-2021,11-06-2021,1,Approved
+Bhikam,B142,Full Day,26-06-2021,26-06-2021,1,Not Approved
+Ayush,A132,Half Day,18-06-2021,18-06-2021,0.5,Not Approved
+Bhikam,B142,Half Day,22-06-2021,22-06-2021,0.5,Approved
+,,,,,,
