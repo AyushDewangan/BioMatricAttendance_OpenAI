@@ -16,7 +16,7 @@ import okhttp3.Response;
 public class TestFolder {
 
 	public static void main(String[] args) throws Exception {
-		String apiKey = "Enter you api key";
+		String apiKey = "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";
 		String filePath = "TestFolder\\Test.csv";
 
 		OkHttpClient client = new OkHttpClient.Builder().connectTimeout(120, TimeUnit.SECONDS) // Set the connect
@@ -25,7 +25,7 @@ public class TestFolder {
 				.build();
 
 		MediaType mediaType = MediaType.parse("application/json");
-		String jsonString = "{\"model\":\"gpt-3.5-turbo\",\"messages\":[{\"role\":\"user\",\"content\":\"Provide example csv dataset for employee Ayush,Romesh,Bhikam, for total '30 days' and mark 'weekend' on weekends with header as EmployeeName EmployeeID Date TimeIn TimeOut HoursWorked, where date format is dd-mm-yyyy. Create another data where 5 employee leave approved or not approved in 'june' month with header as EmployeeName EmployeeID LeaveType LeaveSatrtDate LeaveEndDate LeaveDuration LeaveStatus, where date format is dd-mm-yyyy,'LeaveSatrtDate LeaveEndDate LeaveDuration' depend on each, LeaveStatus is randomly 'Approved' or Not Approved, LeaveType set as 'Half Day' or 'Full Day', EmployeeName are like 'Ayush,Romesh,Bhikam'. Create one more dataset where dataset for only 2 holiday in june month with header as HolidayDate Day HolidayName Type, where date format ir dd-mm-yyyy and Type is 'public'. Create another dataset in csv format with Employee Name, Employee ID, Total Days Worked (Calculate), Total Leave(Calculte), Total Hours Worked(Calculate). create these in csv file\"}]}";
+		String jsonString = "{\"model\":\"gpt-3.5-turbo\",\"messages\":[{\"role\":\"user\",\"content\":\"Provide example csv dataset for employee Ayush,Romesh,Bhikam, for total '30 days' and mark 'weekend' on weekends with header as EmployeeName EmployeeID Date TimeIn TimeOut HoursWorked, where date format is dd-mm-yyyy. Create another data where 5 employee leave approved or not approved in 'june' month with header as EmployeeName EmployeeID LeaveType LeaveSatrtDate LeaveEndDate LeaveDuration LeaveStatus, where date format is dd-mm-yyyy,'LeaveSatrtDate LeaveEndDate LeaveDuration' depend on each, LeaveStatus is randomly 'Approved' or Not Approved, LeaveType set as 'Half Day' or 'Full Day', EmployeeName are like 'Ayush,Romesh,Bhikam'. Create one more dataset where dataset for only 2 holiday in june month with header as HolidayDate Day HolidayName Type, where date format ir dd-mm-yyyy and Type is 'public'. Create another dataset in csv format with Employee Name, Employee ID, Total Days Worked (Calculate), Total Leave(Calculte), Total Hours Worked(Calculate).  create these in csv file.'\"}]}";
 		JSONObject jsonObject = new JSONObject(jsonString);
 
 		System.out.println(jsonObject);

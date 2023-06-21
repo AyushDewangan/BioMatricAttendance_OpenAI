@@ -1,4 +1,4 @@
-EmployeeName,EmployeeID,TotalDaysWorked,TotalLeave,TotalHoursWorked,,
-Ayush,A132,24,3.5,190.25,,
-Romesh,R132,27,0,223.25,,
-Bhikam,B142,24,6,201.75,,
+EmployeeName,EmployeeID,TotalDaysWorked,TotalLeave,TotalHoursWorked
+Ayush,1001,18,2,144
+Romesh,1002,18,2,144
+Bhikam,1003,19.5,0.5,132

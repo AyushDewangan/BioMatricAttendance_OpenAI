@@ -31,25 +31,25 @@ public class CSVFileSeparator1 {
 			String line;
 
 			while ((line = reader.readLine()) != null) {
-				if (line.contains("Employee Attendance Dataset:")) {
+				if (line.contains("Dataset 1: Employee Attendance")) {
 					copyEmpAttData = true;
 					copyEmpLeaveData = false;
 					copyHolidayData = false;
 					copyEmpAttResultData = false;
 					continue;
-				} else if (line.contains("Employee Leave Dataset:")) {
+				} else if (line.contains("Dataset 2: Employee Leave")) {
 					copyEmpAttData = false;
 					copyEmpLeaveData = true;
 					copyHolidayData = false;
 					copyEmpAttResultData = false;
 					continue;
-				} else if (line.contains("Holiday Dataset:")) {
+				} else if (line.contains("Dataset 3: Public Holidays")) {
 					copyEmpAttData = false;
 					copyEmpLeaveData = false;
 					copyHolidayData = true;
 					copyEmpAttResultData = false;
 					continue;
-				} else if (line.contains("Employee Attendance Summary Dataset:")) {
+				} else if (line.contains("Dataset 4: Employee Summary")) {
 					copyEmpAttData = false;
 					copyEmpLeaveData = false;
 					copyHolidayData = false;
