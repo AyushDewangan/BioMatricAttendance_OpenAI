@@ -1,0 +1,44 @@
+Example dataset for emp_att_june.csv:
+
+EmployeeName,EmployeeID,Date,TimeIn,TimeOut,HoursWorked
+Ayush,1001,01-06-2021,09:00,17:00,8
+Ayush,1001,02-06-2021,08:30,17:30,9
+Ayush,1001,03-06-2021,08:00,16:00,8
+Ayush,1001,04-06-2021,08:00,15:00,7
+Ayush,1001,05-06-2021,00:00,00:00,0
+Ayush,1001,06-06-2021,00:00,00:00,0
+Romesh,1002,01-06-2021,09:00,17:00,8
+Romesh,1002,02-06-2021,08:30,17:30,9
+Romesh,1002,03-06-2021,08:00,16:00,8
+Romesh,1002,04-06-2021,08:00,15:00,7
+Romesh,1002,05-06-2021,00:00,00:00,0
+Romesh,1002,06-06-2021,00:00,00:00,0
+Bhikam,1003,01-06-2021,09:00,17:00,8
+Bhikam,1003,02-06-2021,08:30,17:30,9
+Bhikam,1003,03-06-2021,08:00,16:00,8
+Bhikam,1003,04-06-2021,08:00,15:00,7
+Bhikam,1003,05-06-2021,00:00,00:00,0
+Bhikam,1003,06-06-2021,00:00,00:00,0
+
+Example dataset for emp_leave_june.csv:
+
+EmployeeName,EmployeeID,LeaveType,LeaveStartDate,LeaveEndDate,LeaveDuration,LeaveStatus
+Ayush,1001,Half Day,04-06-2021,04-06-2021,0.5,Not Approved
+Romesh,1002,Full Day,07-06-2021,07-06-2021,1,Approved
+Bhikam,1003,Full Day,08-06-2021,08-06-2021,1,Approved
+Ayush,1001,Full Day,21-06-2021,21-06-2021,1,Not Approved
+Romesh,1002,Half Day,24-06-2021,24-06-2021,0.5,Approved
+
+Example dataset for emp_holiday_june.csv:
+
+HolidayDate,Day,HolidayName,Type
+05-06-2021,Saturday,World Environment Day,Public
+26-06-2021,Saturday,International Day against Drug Abuse and Illicit Trafficking,Public
+
+Example dataset for emp_payroll_cal.csv:
+
+EmployeeName,EmployeeID,Total Days Worked,Total Leave,Total Hours Worked
+Ayush,1001,4,1,32
+Romesh,1002,5,0,40
+Bhikam,1003,5,0,40
+(Note: Total Days Worked, Total Leave, and Total Hours Worked are calculated values based on the data from emp_att_june and emp_leave_june datasets.)
