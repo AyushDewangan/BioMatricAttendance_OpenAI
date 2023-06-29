@@ -1,0 +1,7 @@
+
+EmployeeName,EmployeeID,Designation,Billing
+Ayush,E001,Software Engineer,Billable
+Romesh,E002,Full Stack Developer,Non-Billable
+Bhikam,E003,IT consultant,Billable
+
+

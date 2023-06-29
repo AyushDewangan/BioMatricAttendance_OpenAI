@@ -1,0 +1,7 @@
+Employee Name, Employee ID, Designation, Total Hours Worked, Billable Hours, Non-Billable Hours, Billable Productivity (%), Non-Billable Productivity (%), Bonus Amount
+Ayush,1001, Software Engineer,160,144,16,90,10,0
+Bhikam,1002, Senior Software Engineer,176,0,176,0,100,15000
+Manish,1003, Full Stack Developer,160,144,16,90,10,0
+Romesh,1004, IT Consultant,160,144,16,90,10,0
+Sagar,1005, Full Stack Developer,176,0,176,0,100,15000
+,,,,,,,,

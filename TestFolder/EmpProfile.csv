@@ -1,0 +1,4 @@
+EmployeeName,EmployeeID,Designation,Billing
+John Doe,1001,Senior Software Engineer,Billable
+Jane Smith,1002,Full Stack Developer,Non-Billable
+Mark Johnson,1003,IT Consultant,Billable

@@ -1,44 +1,139 @@
-Example dataset for emp_att_june.csv:
+Sorry, as an AI language model, I am not authorized to create files or write to the disk. However, here is the requested data in CSV format that you can save to respective files.
+
+emp_att_june.csv:
 
 EmployeeName,EmployeeID,Date,TimeIn,TimeOut,HoursWorked
-Ayush,1001,01-06-2021,09:00,17:00,8
-Ayush,1001,02-06-2021,08:30,17:30,9
-Ayush,1001,03-06-2021,08:00,16:00,8
-Ayush,1001,04-06-2021,08:00,15:00,7
-Ayush,1001,05-06-2021,00:00,00:00,0
-Ayush,1001,06-06-2021,00:00,00:00,0
-Romesh,1002,01-06-2021,09:00,17:00,8
-Romesh,1002,02-06-2021,08:30,17:30,9
-Romesh,1002,03-06-2021,08:00,16:00,8
-Romesh,1002,04-06-2021,08:00,15:00,7
-Romesh,1002,05-06-2021,00:00,00:00,0
-Romesh,1002,06-06-2021,00:00,00:00,0
-Bhikam,1003,01-06-2021,09:00,17:00,8
-Bhikam,1003,02-06-2021,08:30,17:30,9
-Bhikam,1003,03-06-2021,08:00,16:00,8
-Bhikam,1003,04-06-2021,08:00,15:00,7
-Bhikam,1003,05-06-2021,00:00,00:00,0
-Bhikam,1003,06-06-2021,00:00,00:00,0
+Ayush,E001,01-06-2022,09:30,18:30,9
+Ayush,E001,02-06-2022,09:15,18:45,9.5
+Ayush,E001,03-06-2022,09:00,18:00,9
+Ayush,E001,04-06-2022,NA,NA,Weekend
+Ayush,E001,05-06-2022,NA,NA,Weekend
+Ayush,E001,06-06-2022,09:45,19:15,9.5
+Ayush,E001,07-06-2022,10:00,19:00,9
+Ayush,E001,08-06-2022,08:45,17:45,9
+Ayush,E001,09-06-2022,10:30,19:30,9
+Ayush,E001,10-06-2022,09:15,18:15,9
+Ayush,E001,11-06-2022,NA,NA,Weekend
+Ayush,E001,12-06-2022,NA,NA,Weekend
+Ayush,E001,13-06-2022,08:30,17:30,9
+Ayush,E001,14-06-2022,09:45,18:45,9
+Ayush,E001,15-06-2022,10:00,19:00,9
+Ayush,E001,16-06-2022,08:45,17:45,9
+Ayush,E001,17-06-2022,11:00,20:00,9
+Ayush,E001,18-06-2022,NA,NA,Weekend
+Ayush,E001,19-06-2022,NA,NA,Weekend
+Ayush,E001,20-06-2022,10:15,19:15,9
+Ayush,E001,21-06-2022,09:30,18:30,9
+Ayush,E001,22-06-2022,09:00,18:00,9
+Ayush,E001,23-06-2022,11:30,20:30,9
+Ayush,E001,24-06-2022,08:45,18:15,9.5
+Ayush,E001,25-06-2022,NA,NA,Weekend
+Ayush,E001,26-06-2022,NA,NA,Weekend
+Ayush,E001,27-06-2022,09:15,18:15,9
+Ayush,E001,28-06-2022,10:00,19:00,9
+Ayush,E001,29-06-2022,09:45,18:45,9
+Ayush,E001,30-06-2022,08:30,17:30,9
 
-Example dataset for emp_leave_june.csv:
+Romesh,E002,01-06-2022,09:15,18:15,9
+Romesh,E002,02-06-2022,10:00,19:00,9
+Romesh,E002,03-06-2022,09:45,18:45,9
+Romesh,E002,04-06-2022,NA,NA,Weekend
+Romesh,E002,05-06-2022,NA,NA,Weekend
+Romesh,E002,06-06-2022,08:45,17:45,9
+Romesh,E002,07-06-2022,10:30,19:30,9
+Romesh,E002,08-06-2022,09:45,18:45,9
+Romesh,E002,09-06-2022,10:15,19:15,9
+Romesh,E002,10-06-2022,09:30,18:30,9
+Romesh,E002,11-06-2022,NA,NA,Weekend
+Romesh,E002,12-06-2022,NA,NA,Weekend
+Romesh,E002,13-06-2022,10:00,19:00,9
+Romesh,E002,14-06-2022,09:15,18:15,9
+Romesh,E002,15-06-2022,08:30,17:30,9
+Romesh,E002,16-06-2022,11:30,20:30,9
+Romesh,E002,17-06-2022,09:45,18:45,9
+Romesh,E002,18-06-2022,NA,NA,Weekend
+Romesh,E002,19-06-2022,NA,NA,Weekend
+Romesh,E002,20-06-2022,09:00,18:00,9
+Romesh,E002,21-06-2022,08:45,17:45,9
+Romesh,E002,22-06-2022,10:15,19:15,9
+Romesh,E002,23-06-2022,09:30,18:30,9
+Romesh,E002,24-06-2022,08:30,17:30,9
+Romesh,E002,25-06-2022,NA,NA,Weekend
+Romesh,E002,26-06-2022,NA,NA,Weekend
+Romesh,E002,27-06-2022,10:00,19:00,9
+Romesh,E002,28-06-2022,09:45,18:45,9
+Romesh,E002,29-06-2022,08:45,17:45,9
+Romesh,E002,30-06-2022,10:30,19:30,9
+
+Bhikam,E003,01-06-2022,10:15,19:15,9
+Bhikam,E003,02-06-2022,09:30,18:30,9
+Bhikam,E003,03-06-2022,08:45,17:45,9
+Bhikam,E003,04-06-2022,NA,NA,Weekend
+Bhikam,E003,05-06-2022,NA,NA,Weekend
+Bhikam,E003,06-06-2022,11:00,20:00,9
+Bhikam,E003,07-06-2022,09:45,18:45,9
+Bhikam,E003,08-06-2022,10:30,19:30,9
+Bhikam,E003,09-06-2022,09:00,18:00,9
+Bhikam,E003,10-06-2022,08:30,17:30,9
+Bhikam,E003,11-06-2022,NA,NA,Weekend
+Bhikam,E003,12-06-2022,NA,NA,Weekend
+Bhikam,E003,13-06-2022,10:15,19:15,9
+Bhikam,E003,14-06-2022,09:30,18:30,9
+Bhikam,E003,15-06-2022,08:45,17:45,9
+Bhikam,E003,16-06-2022,11:30,20:30,9
+Bhikam,E003,17-06-2022,09:45,18:45,9
+Bhikam,E003,18-06-2022,NA,NA,Weekend
+Bhikam,E003,19-06-2022,NA,NA,Weekend
+Bhikam,E003,20-06-2022,10:00,19:00,9
+Bhikam,E003,21-06-2022,09:45,18:45,9
+Bhikam,E003,22-06-2022,08:30,17:30,9
+Bhikam,E003,23-06-2022,09:15,18:15,9
+Bhikam,E003,24-06-2022,10:30,19:30,9
+Bhikam,E003,25-06-2022,NA,NA,Weekend
+Bhikam,E003,26-06-2022,NA,NA,Weekend
+Bhikam,E003,27-06-2022,11:00,20:00,9
+Bhikam,E003,28-06-2022,09:30,18:30,9
+Bhikam,E003,29-06-2022,10:15,19:15,9
+Bhikam,E003,30-06-2022,09:45,18:45,9
+
+
+emp_leave_june.csv:
 
 EmployeeName,EmployeeID,LeaveType,LeaveStartDate,LeaveEndDate,LeaveDuration,LeaveStatus
-Ayush,1001,Half Day,04-06-2021,04-06-2021,0.5,Not Approved
-Romesh,1002,Full Day,07-06-2021,07-06-2021,1,Approved
-Bhikam,1003,Full Day,08-06-2021,08-06-2021,1,Approved
-Ayush,1001,Full Day,21-06-2021,21-06-2021,1,Not Approved
-Romesh,1002,Half Day,24-06-2021,24-06-2021,0.5,Approved
+Ayush,E001,Half Day,07-06-2022,07-06-2022,0.5,Approved
+Romesh,E002,Full Day,09-06-2022,09-06-2022,1,Not Approved
+Bhikam,E003,Half Day,14-06-2022,14-06-2022,0.5,Not Approved
+Ayush,E001,Full Day,18-06-2022,18-06-2022,1,Approved
+Romesh,E002,Half Day,24-06-2022,24-06-2022,0.5,Approved
 
-Example dataset for emp_holiday_june.csv:
+
+emp_holiday_june.csv:
 
 HolidayDate,Day,HolidayName,Type
-05-06-2021,Saturday,World Environment Day,Public
-26-06-2021,Saturday,International Day against Drug Abuse and Illicit Trafficking,Public
+05-06-2022,Sunday,Eid al-Fitr,Public
+14-06-2022,Tuesday,Yoga Day,Public
 
-Example dataset for emp_payroll_cal.csv:
 
-EmployeeName,EmployeeID,Total Days Worked,Total Leave,Total Hours Worked
-Ayush,1001,4,1,32
-Romesh,1002,5,0,40
-Bhikam,1003,5,0,40
-(Note: Total Days Worked, Total Leave, and Total Hours Worked are calculated values based on the data from emp_att_june and emp_leave_june datasets.)
+emp_payroll_cal.csv:
+
+EmployeeName,EmployeeID,TotalDaysWorked,TotalHoursWorked
+Ayush,E001,22,201.5
+Romesh,E002,23,207
+Bhikam,E003,23,205.5
+
+
+EmpProfile.csv:
+
+EmployeeName,EmployeeID,Designation,Billing
+Ayush,E001,Software Engineer,Billable
+Romesh,E002,Full Stack Developer,Non-Billable
+Bhikam,E003,IT consultant,Billable
+
+
+ItDesignation.csv:
+
+Designation,Package
+Software Engineer,50000
+Senior software Engineer,80000
+Full Stack Developer,100000
+IT consultant,120000

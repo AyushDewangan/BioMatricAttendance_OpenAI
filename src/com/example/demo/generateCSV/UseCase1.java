@@ -31,18 +31,41 @@ public class UseCase1 {
 		// Initializing ApiKey, FilePath, Prompt
 		String apiKey = "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";
 		String filePath = "Present\\Test.csv";
-		String promptContent = "Provide example csv dataset for employee Ayush,Romesh,Bhikam, for total '30 days'"
-				+ " and mark 'weekend' on weekends with header as EmployeeName EmployeeID Date TimeIn TimeOut"
+//		String promptContent = "Provide example csv dataset for employee Ayush,Romesh,Bhikam, for total '30 days'"
+//				+ " and mark 'weekend' on weekends with header as EmployeeName EmployeeID Date TimeIn TimeOut"
+//				+ " HoursWorked, where date format is dd-mm-yyyy that record store in emp_att_june.csv. Create"
+//				+ " another data where 5 employee leave approved or not approved in 'june' month with header as"
+//				+ " EmployeeName EmployeeID LeaveType LeaveSatrtDate LeaveEndDate LeaveDuration LeaveStatus, where"
+//				+ " date format is dd-mm-yyyy,'LeaveSatrtDate LeaveEndDate LeaveDuration' depend on each,"
+//				+ " LeaveStatus is randomly 'Approved' or Not Approved, LeaveType set as 'Half Day' or 'Full Day',"
+//				+ " EmployeeName are like 'Ayush,Romesh,Bhikam' , store that records in emp_leave_june.csv file."
+//				+ " Create one more dataset where dataset for only 2 holiday in june month with header as HolidayDate Day HolidayName Type,"
+//				+ " where date format ir dd-mm-yyyy and Type is 'public' store in emp_holiday_june.csv file. Create another dataset in csv format"
+//				+ " with Employee Name, Employee ID, Total Days Worked (Calculate), Total Leave(Calculte),"
+//				+ " Total Hours Worked(Calculate) store this records in emp_payroll_cal.csv.  create these in csv file.";
+
+		String promptContent = "Generate data in CSV file format for employee Ayush,Romesh,Bhikam, for total '30 days'"
+				+ " and mark 'weekend' on weekends(saturday and sunday) with header as EmployeeName EmployeeID Date TimeIn(range 9-10AM) TimeOut(range 6-7PM)"
 				+ " HoursWorked, where date format is dd-mm-yyyy that record store in emp_att_june.csv. Create"
-				+ " another data where 5 employee leave approved or not approved in 'june' month with header as"
+				+ " another data 5 record where employee leave approved or not approved for 'june' month with header as"
 				+ " EmployeeName EmployeeID LeaveType LeaveSatrtDate LeaveEndDate LeaveDuration LeaveStatus, where"
 				+ " date format is dd-mm-yyyy,'LeaveSatrtDate LeaveEndDate LeaveDuration' depend on each,"
 				+ " LeaveStatus is randomly 'Approved' or Not Approved, LeaveType set as 'Half Day' or 'Full Day',"
 				+ " EmployeeName are like 'Ayush,Romesh,Bhikam' , store that records in emp_leave_june.csv file."
 				+ " Create one more dataset where dataset for only 2 holiday in june month with header as HolidayDate Day HolidayName Type,"
 				+ " where date format ir dd-mm-yyyy and Type is 'public' store in emp_holiday_june.csv file. Create another dataset in csv format"
-				+ " with Employee Name, Employee ID, Total Days Worked (Calculate), Total Leave(Calculte),"
-				+ " Total Hours Worked(Calculate) store this records in emp_payroll_cal.csv.  create these in csv file.";
+				+ " having header like 'EmployeeName, EmployeeID, TotalDaysWorked (Calculated),"
+				+ " Total Hours Worked(Calculated)' where TotalDaysWorked exclude weekends, holiday and leaves which is 'Not Approved'"
+				+ " store this records in emp_payroll_cal.csv.  create these in csv file."
+				+ "Generate data in CSV file format for 3 Employee from It-Corporate where headers are"
+				+ " 'EmployeeName, EmployeeID, Designation, Billing' where designation are like"
+				+ " 'Software Engineer/Senior software Engineer/Full Stack Developer/ITconsultant' "
+				+ "and for the Billing are randomly set 'Billable' and 'Non-Billable' that record"
+				+ " store in EmpProfile.csv"
+				+ "Generate data in CSV file format where headers are"
+				+ " 'Designation, Package where designation are like"
+				+ " 'Software Engineer/Senior software Engineer/Full Stack Developer/ITconsultant' "
+				+ "and for the Package are in Indian Rupees, stored records in ItDesignation.csv file";
 
 		// Prepare HTTP client with handling Timeout Exception
 		OkHttpClient client = new OkHttpClient.Builder().connectTimeout(120, TimeUnit.SECONDS)
