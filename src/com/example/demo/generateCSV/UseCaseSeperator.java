@@ -11,19 +11,19 @@ public class UseCaseSeperator {
 		try {
 			
 			// Set Source file path
-			BufferedReader reader = new BufferedReader(new FileReader("FinalFolder/Test.csv"));
+			BufferedReader reader = new BufferedReader(new FileReader("Testing/Test.csv"));
 
 			// Set Destination file path
-			BufferedWriter empAttWriter = new BufferedWriter(new FileWriter("FinalFolder/emp_att_june.csv"));
-			BufferedWriter empLeaveWriter = new BufferedWriter(new FileWriter("FinalFolder/emp_leave_june.csv"));
-			BufferedWriter holidayWriter = new BufferedWriter(new FileWriter("FinalFolder/emp_holiday_june.csv"));
-			BufferedWriter empAttResultWriter = new BufferedWriter(new FileWriter("FinalFolder/emp_att_result_june.csv"));
-			BufferedWriter empProfileWriter = new BufferedWriter(new FileWriter("FinalFolder/EmpProfile.csv"));
-			BufferedWriter empDesignationWriter = new BufferedWriter(new FileWriter("FinalFolder/EmpDesignation.csv"));
-			BufferedWriter empFinalPayWriter = new BufferedWriter(new FileWriter("FinalFolder/finalPay.csv"));
-			BufferedWriter empEmpPaySlipWriter = new BufferedWriter(new FileWriter("FinalFolder/EmpPaySlip.csv"));
-			BufferedWriter empEmpProductPayWriter = new BufferedWriter(new FileWriter("FinalFolder/EmpProductPay.csv"));
-			BufferedWriter empEmpPayRollBillWriter = new BufferedWriter(new FileWriter("FinalFolder/EmpPayRollBill.csv"));
+			BufferedWriter empAttWriter = new BufferedWriter(new FileWriter("Testing/emp_att_june.csv"));
+			BufferedWriter empLeaveWriter = new BufferedWriter(new FileWriter("Testing/emp_leave_june.csv"));
+			BufferedWriter holidayWriter = new BufferedWriter(new FileWriter("Testing/emp_holiday_june.csv"));
+			BufferedWriter empAttResultWriter = new BufferedWriter(new FileWriter("Testing/emp_att_result_june.csv"));
+			BufferedWriter empProfileWriter = new BufferedWriter(new FileWriter("Testing/EmpProfile.csv"));
+			BufferedWriter empDesignationWriter = new BufferedWriter(new FileWriter("Testing/EmpDesignation.csv"));
+			BufferedWriter empFinalPayWriter = new BufferedWriter(new FileWriter("Testing/finalPay.csv"));
+			BufferedWriter empEmpPaySlipWriter = new BufferedWriter(new FileWriter("Testing/EmpPaySlip.csv"));
+			BufferedWriter empEmpProductPayWriter = new BufferedWriter(new FileWriter("Testing/EmpProductPay.csv"));
+			BufferedWriter empEmpPayRollBillWriter = new BufferedWriter(new FileWriter("Testing/EmpPayRollBill.csv"));
 			//finalPay.csv: -> Done
 			//EmppaySlip.csv: - EmpPaySlip.csv -> Done
 			//EmpProductPay.csv: -> Done

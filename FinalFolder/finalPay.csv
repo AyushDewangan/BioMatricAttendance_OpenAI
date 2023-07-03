@@ -2,5 +2,5 @@ Employee Name, Employee ID, Designation, Salary, Tax Deduction(Calculated), Net 
 Ayush,1001, Software Engineer,500000,75000,425000,20,160,414375
 Bhikam,1002, Senior Software Engineer,800000,120000,680000,22,176,712000
 Manish,1003, Full Stack Developer,600000,90000,510000,20,160,414375
-Romesh,1004, IT Consultant,700000,105000,595000,20,160,45
+Romesh,1004, IT Consultant,700000,105000,595000,20,160,451200
 Sagar,1005, Full Stack Developer,600000,90000,510000,22,176,712000
